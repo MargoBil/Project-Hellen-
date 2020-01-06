@@ -1,0 +1,34 @@
+@import 'utils/variables.scss';
+@import 'utils/placefolder.scss';
+@import 'utils/mixins.scss';
+
+@import 'base/normalize';
+@import 'base/base';
+@import 'base/fonts';
+
+@import 'layouts/header';
+@import 'layouts/main-content';
+
+@import 'components/box-menu/call-button';
+@import 'components/box-menu/menu-button';
+@import 'components/box-menu/menu-list';
+@import 'components/primary-section/title-box';
+@import 'components/primary-section/title-button';
+@import 'components/primary-section/title-list';
+@import 'components/primary-section/title-image';
+@import 'components/primary-tasks/tasks-title';
+@import 'components/primary-tasks/tasks-list';
+@import 'components/primary-solutions/solutions-title';
+@import 'components/primary-solutions/solutions-list';
+@import 'components/primary-program/program-titles';
+@import 'components/primary-program/program-lists';
+@import 'components/primary-strategy/strategy-title';
+@import 'components/primary-strategy/strategy-list';
+@import 'components/primary-team/team-title';
+@import 'components/primary-team/team-photo';
+@import 'components/primary-team/team-list';
+@import 'components/primary-team/team-text';
+@import 'components/primary-team/team-link';
+
+
+

@@ -1,0 +1,24 @@
+.menu-button {
+  width: 24px;
+  height: 12px;
+  position: relative;
+  @media screen and (min-width: 1280px) {
+  display: none;
+  }
+}
+
+.menu-button__element {
+  height: 2px;
+  width: 24px;
+  background-color: $primary-color-dark;
+  position: absolute;
+
+  &:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:nth-child(3) {
+    bottom: 0;
+  }
+}

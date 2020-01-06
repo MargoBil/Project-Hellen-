@@ -1,0 +1,40 @@
+.menu-list__item,
+.menu-list__link {
+  @extend %list-decoration;
+}
+
+.menu-list {
+  padding: 0;
+  @include flex-justify-center();
+
+  @media screen and (min-width: 1280px) {
+    min-width: 910px;
+  }
+
+  @media screen and (min-width: 1680px) {
+    min-width: 1076px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin: 0;
+  }
+}
+
+.menu-list__link {
+  font-family: $font-button;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $color-menu;
+
+  &:hover,
+  &:focus {
+    color: #ff6b08;
+  }
+}
+
+.menu-list__item:not(:last-child) {
+  @media screen and (min-width:320px) and (max-width: 1279px) {
+    display: none;
+  }
+}

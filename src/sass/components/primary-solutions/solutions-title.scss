@@ -1,0 +1,26 @@
+.solutions-title {
+  font-family: $primary-font;
+  font-size: 21px;
+  line-height: 30px;
+  color: $primary-color-dark;
+  text-align: center;
+  margin-top: 200px;
+
+  @media screen and (min-width:768px) {
+    font-size: 26px;
+    line-height: 33px;
+    margin-top: 220px;
+  }
+
+  @media screen and (min-width:1280px) {
+    font-size: 42px;
+    line-height: 63px;
+    margin-top: 148px;
+    text-align: start;
+  }
+  @media screen and (min-width:1680px) {
+    font-size: 46px;
+    margin-top: 295px;
+    
+  }
+}

@@ -1,0 +1,95 @@
+.program-list {
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 85px;
+
+  &__sub-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__sub-list {
+    padding-left: 0;
+
+    @media screen and (min-width:768px) and (max-width:1279px) {
+      width: 520px;
+    }
+
+    @media screen and (min-width:768px) and(max-width:1279px) {
+      @include flex-justify-center($justify:flex-start, $align: flex-start);
+    }
+  }
+
+  &__sub-item {
+    @media screen and (min-width:768px) {
+      padding-right: 50px;
+    }
+    @media screen and (min-width:1280px) {
+      margin-bottom: 0;
+      padding-right: 0;
+    }
+  }
+
+  &__sub-text {
+    font-size: 11px;
+    line-height: 20px;
+    font-family: $primary-font;
+    color: $color-text-opasity;
+    display: block;
+
+    &--5item {
+      padding-top: 23px;
+    }
+
+    @media screen and(min-width:1280px) {
+      font-size: 18.75px;
+      line-height: 29px;
+    }
+  }
+
+  &__item,
+  &__sub-item {
+    @extend %list-decoration;
+  }
+
+  &__item {
+    position: relative;
+    @media screen and(min-width:320px) and(max:1279px) {
+      margin-bottom: 35px;
+    }
+
+    &--line {
+      &::before {
+        @media screen and(min-width:320px) and(max-width:1279px){
+          content: '';
+        width: 2px;
+        height: calc(100% + 35px);
+        background-color: $color-line-gray;
+        position: absolute;
+        left: -31.5px;
+        top: 10px;
+        }
+      }
+    }
+
+
+  }
+
+  @media screen and (min-width:768px) {
+    width: 520px;
+  }
+
+  @media screen and (min-width:1280px) {
+    width: 1210px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 67px;
+  }
+  @media screen and (min-width:1680px) {
+    margin-top: 135px;
+    width: 1340px;
+  }
+}

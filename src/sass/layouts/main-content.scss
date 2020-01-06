@@ -1,0 +1,137 @@
+.primary-section {
+  @media screen and (min-width:320px) {
+    background-image: url('/images/images-tablet/bg-shape-tb-min.png');
+    background-position-x: 20%;
+  }
+
+  @media screen and (min-width:768px) {
+    background-position-y: -150px;
+    background-size: cover;
+  }
+
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 1280px) {
+    background-image: url('/images/images-desktop/bg-shape-d-min.png');
+    background-position-y: -230px;
+
+  }
+
+  &__container {
+    @media screen and (min-width:768px) {
+      flex-wrap: wrap;
+      @include flex-justify-center();
+    }
+
+  }
+}
+
+.primary-tasks {
+  @media screen and (min-width:320px) and (max-width: 767px) {
+    background-color: $bg-color-dark;
+    height: 518px;
+  }
+
+  @media screen and(min-width:768px) {
+    height: 334px;
+    background-image: url('/images/images-tablet/bg-fire-tb-min.png');
+    background-size: cover;
+  }
+
+  @media only screen and (min-resolution: 2dppx) and (min-width:768px) {
+    background-image: url('/images/images-tablet/bg-fire-tb@2x-min.png')
+  }
+
+  @media only screen and(min-resolution: 192dpi) and (min-width:768px) {
+    background-image: url('/images/images-tablet/bg-fire-tb@2x-min.png')
+  }
+
+  @media screen and (min-width:1280px) and (max-width: 1679px) {
+    height: 526px;
+    background-image: url('/images/images-desktop/bg-fire-d-min.png');
+    background-size: cover;
+  }
+
+  @media only screen and (min-resolution: 2dppx) and (min-width:1280px) and (max-width: 1679px) {
+    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+  }
+
+  @media only screen and(min-resolution: 192dpi) and (min-width:1280px) and (max-width: 1679px) {
+    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+  }
+
+  @media screen and (min-width:1680px) {
+    height: 561px;
+    background-image: url('/images/images-desktop/bg-fire-d2-min.png');
+    background-size: cover;
+  }
+
+  @media only screen and (min-resolution: 2dppx) and (min-width:1680px) {
+    background-image: url('/images/images-desktop/bg-fire-d2@2x-min.png')
+  }
+
+  @media only screen and(min-resolution: 192dpi) and (min-width:1680px) {
+    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+  }
+}
+
+.primary-mini-box {
+  @include flex-justify-center('', center);
+  flex-wrap: wrap;
+
+  @media screen and (min-width:768px) {
+    @include flex-justify-center();
+    flex-wrap: nowrap;
+  }
+
+}
+
+.primary-program {
+  background-color: $primary-color-dark;
+  position: relative;
+
+  &::before {
+    @media screen and(min-width:1280px) {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background-color: $color-line-gray;
+      position: absolute;
+      top: 140px;
+    }
+    @media screen and(min-width:1680px) {
+      top: 271px;
+    }
+  }
+}
+.primary-program-strategy {
+  background-color: $primary-color-dark;
+
+}
+.primary-strategy {
+  position: relative;
+  height: 394px;
+  @media screen and(min-width:768px) {
+    height: 190px;
+  }
+  
+  @media screen and(min-width:1280px) {
+    height: calc(100%);
+  }
+  @media screen and(min-width:1680px) {
+    height: 295px;
+  }
+}
+.team-box {
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+}
+.team-information {
+  @media screen and(min-width:768px) {
+    padding-left: 45px;
+  }
+  @media screen and(min-width:1280px) {
+    padding-left: 84px;
+  }
+}

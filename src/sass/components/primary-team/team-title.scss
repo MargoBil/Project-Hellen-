@@ -1,0 +1,23 @@
+.primary-team {
+  margin-top: 240px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: $primary-font;
+  color: $bg-color-dark;
+  font-weight: bold;
+  line-height: 30px;
+  @media screen and(min-width:768px) {
+    font-size: 26px;
+    line-height: 62.5px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 42px;
+    margin-top: 95px;
+    margin-bottom: 50px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 46px;
+    margin-top: 315px;
+    margin-bottom: 70px;
+  }
+}

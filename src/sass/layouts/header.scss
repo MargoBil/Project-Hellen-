@@ -1,0 +1,24 @@
+.box-menu {
+  min-height: 65px;
+  margin-top: 20px;
+  @include flex-justify-center();
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    min-height: 84px;
+  }
+
+}
+
+.menu {
+  @media screen and (min-width: 768px) {
+    min-width: 319px;
+    @include flex-justify-center ();
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 911px;
+  }
+
+  display: flex;
+}

@@ -1,0 +1,11 @@
+.team-text {
+  font-size: 11px;
+  font-family: $primary-font;
+  color: $color-text-gray;
+  line-height: 20px;
+  padding-left: 15px;
+  font-weight: normal;
+  @media screen and(min-width:1280px) {
+    font-size: 16.7px;
+  }
+}

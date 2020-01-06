@@ -1,0 +1,27 @@
+.tasks-title {
+ @extend %double-title-main;
+  width: 240px;
+  padding-top: 50px;
+
+  &__accent {
+    color: $primary-color-effects;
+  }
+
+  @media screen and (min-width:768px) {
+    font-size: 26px;
+    line-height: 33px;
+    width: 455px;
+  }
+  @media screen and (min-width:1280px) {
+    font-size: 42px;
+    line-height: 57px;
+    width: 750px;
+  }
+  @media screen and (min-width:1680px) {
+    font-size: 46px;
+    line-height: 63px;
+    padding-top: 104px;
+    padding-bottom: 38px;
+  }
+
+}

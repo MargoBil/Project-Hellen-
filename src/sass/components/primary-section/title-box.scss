@@ -1,0 +1,76 @@
+.title-box {
+  @media screen and(min-width:320px) and (max-width:767px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and(min-width:768px) {
+    display: inline-block;
+  }
+  @media screen and(min-width:1280px) {
+   
+  }
+
+.title-box__name {
+  font-family: $primary-font;
+  font-size: 20px;
+  color: $primary-color-dark;
+  font-weight: 800;
+  line-height: 29px;
+  @extend %margin-none;
+  margin-top: $margin-base;
+  text-align: start;
+  @media screen and(min-width:768px) {
+    font-size: 26px;
+    line-height: 33px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 48px;
+    line-height: 76px;
+  }
+}
+}
+
+.title-box__text {
+  font-size: 15px;
+  font-family: $primary-font;
+  line-height: 20px;
+  @extend %margin-none;
+  font-weight: 700;
+  @media screen and(min-width:768px) {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 21px;
+    line-height: 34px;
+  }
+}
+
+.title-box__text--first {
+  color: $color-menu;
+  margin-top: $margin-base;
+  font-weight: 500;
+}
+
+.title-box__text--second {
+  color: $primary-color-dark;
+  @media screen and (min-width:1280px) {
+    display: inline-block;
+  }
+}
+
+.title-box__text--third {
+  color: $primary-color-effects;
+  margin-bottom: $margin-base;
+  @media screen and (min-width:1280px) {
+    display: inline-block;
+  }
+}

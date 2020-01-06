@@ -1,0 +1,19 @@
+.title-box__button {
+  outline: none;
+  background-color: $primary-color-effects;
+  color: $primary-color-white;
+  font-size: 11px;
+  font-family: $font-button;
+  font-weight: bold;
+  text-transform: uppercase;
+  @extend %button-size;
+  @extend %button-style;
+  margin-bottom: $margin-base;
+  margin-right: auto;
+  margin-left: auto;
+
+  &:hover,
+  &:focus {
+    background-color: $color-hover;
+  }
+}
