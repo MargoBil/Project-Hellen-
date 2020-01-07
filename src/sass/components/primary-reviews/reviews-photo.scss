@@ -1,0 +1,69 @@
+.reviews-photo {
+  padding-top: 20px;
+  padding-bottom: 45px;
+  text-align: center;
+  position: relative;
+  &::after {
+    content:'';
+    background-image: url('/images/icons-svg/vk.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  &__name {
+    font-size: 13px;
+    font-family: $primary-font;
+    color: $primary-color-effects;
+    font-weight: 800;
+    line-height: 29px;
+    margin: 0;
+    @media screen and(min-width:320px) and(max-width:767px) {
+      text-align: center;
+    }
+    @media screen and(min-width:768px) {
+      font-size: 18px;
+      line-height: 29px;
+      margin-bottom: 20px;
+    }
+    @media screen and(min-width:1280px) {
+      font-size: 25px;
+    }
+  }
+  &__text {
+    font-size: 11px;
+    font-family: $primary-font;
+    color: $color-text-gray;
+    line-height: 17px;
+    font-weight: 500;
+    margin: 0;
+    @media screen and(min-width:768px) {
+      font-size: 12.5px;
+      margin-bottom: 20px;
+    }
+    @media screen and(min-width:1280px) {
+      width: 450px;
+    }
+  }
+  
+  @media screen and(min-width:768px) {
+   &__picture {
+     width: 85px;
+     @media screen and(min-width:1280px) {
+      width: 152px;
+    }
+   }
+   padding-left: 40px;
+   padding-right: 40px;
+  }
+  @media screen and(min-width:1280px) {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}

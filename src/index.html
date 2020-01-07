@@ -1,135 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hellen</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <header>
-        //= html/header
-      </header>
-      <main>
-        <section class="primary-section">
-          //= html/primary-section
-        </section>
-        <section class="primary-tasks">
-          //= html/primary-tasks
-        </section>
-        <section class="primary-solutions">
-          //= html/primary-solution
-        </section>
-        <section class="primary-program-strategy">
-          <div class="primary-program">
-            //= html/primary-program
-          </div>
-          <div class="primary-strategy">
-            //= html/primary-strategy
-          </div>
-        </section>
-        <section class="primary-team">
-          <div class="container">
-            <h2 class="team-title">Преподаватель</h2>
-            <div class="team-box">
-              <div class="team-photo">
-                <picture>
-                  <source
-                    media="(min-width: 768px) and (max-width: 1279px)"
-                    srcset="
-                      images/images-tablet/teacher-tb-min.png    247w,
-                      images/images-tablet/teacher-tb@2x-min.png 493w
-                    "
-                    sizes="247px"
-                  />
-                  <source
-                    media="(min-width: 1280px)"
-                    srcset="
-                      images/images-desktop/teacher-d-min.png    494w,
-                      images/images-desktop/teacher-d@2x-min.png 988w
-                    "
-                    sizes="494px"
-                  />
-                  <img
-                    class="team-photo__picture"
-                    srcset="
-                      images/images-mobile/teacher-mb-min.png    279w,
-                      images/images-mobile/teacher-mb@2x-min.png 558w
-                    "
-                    sizes="279px"
-                    src="images/images-mobile/teacher-mb-min.png"
-                    alt="team-photo"
-                  />
-                </picture>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Hellen</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      //= html/header
+    </header>
+    <main>
+      <section class="primary-section">
+        //= html/primary-section
+      </section>
+      <section class="primary-tasks">
+        //= html/primary-tasks
+      </section>
+      <section class="primary-solutions">
+        //= html/primary-solution
+      </section>
+      <section class="primary-program-strategy">
+        <div class="primary-program">
+          //= html/primary-program
+        </div>
+        <div class="primary-strategy">
+          //= html/primary-strategy
+        </div>
+      </section>
+      <section class="primary-team">
+        //= html/primary-team
+      </section>
+      <section class="primary-activities">
+        //= html/primary-activities
+      </section>
+      <section class="primary-reviews">
+        <div class="container">
+          <h2 class="reviews-title">Отзывы <span class="reviews-title__effect">наших</span> выпускников</h2>
+          <div class="reviews-box-slider">
+            <div class="reviews-photo">
+              <picture>
+                <source media="(min-width: 768px) and (max-width: 1279px)" srcset="
+                    images/members/member3-mb-min.png    54w,
+                    images/members/member3-mb@2x-min.png 110w
+                  " sizes="54px" />
+                <source media="(min-width: 1280px)" srcset="
+                    images/members/member3-d-min.png    145w,
+                    images/members/member3-d@2x-min.png 290w
+                  " sizes="145px" />
+                <img class="reviews-photo__picture" srcset="
+                    images/members/member3-mb-min.png    80w,
+                    images/members/member3-mb@2x-min.png 160w
+                  " sizes="80px" src="images/members/member3-mb-min.png" alt="member-photo" />
+              </picture>
               </div>
-              <div class="team-information">
-                <h3 class="team-photo__name">Елена Морева</h3>
-                <ul class="team-list">
-                  <li class="team-list__item">
-                    <div class="team-list__icon">
-                      <svg class="team-list__svg">
-                        <use href="images/icons-svg/check.svg#check" />
-                      </svg>
-                    </div>
-                    <p class="team-list-text">
-                      Опыт подготовки учеников к ВНО - 6 лет
-                    </p>
-                  </li>
-                  <li class="team-list__item">
-                    <div class="team-list__icon">
-                      <svg class="team-list__svg">
-                        <use href="images/icons-svg/check.svg#check" />
-                      </svg>
-                    </div>
-                    <p class="team-list-text">
-                      Собственный результат сдачи ВНО - 197 баллов 2 года подряд
-                    </p>
-                  </li>
-                  <li class="team-list__item">
-                    <div class="team-list__icon">
-                      <svg class="team-list__svg">
-                        <use href="images/icons-svg/check.svg#check" />
-                      </svg>
-                    </div>
-                    <p class="team-list-text">
-                      Сдала на отлично международный аналог ВНО - Кембриджский PET
-                      (Preliminaly English Test)
-                    </p>
-                  </li>
-                </ul>
-                <div class="team-line"></div>
-                <p class="team-text">
-                  Высшее образование получила в Институте международных отношений
-                  НАУ по специальности переводчик - аналитик.
-                </p>
-                <p class="team-text">
-                  В свободное время проходит курсы от лучших университетов мира по
-                  эффективному преподаванию и методикам написания сочинений.
-                </p>
-                <p class="team-text">
-                  В числе пройденных: English Gramma annd Essay Writing
-                  (Berkeley), English Grammar&Style (The University of Queesland),
-                  How to Write an Essay (Berkeley), Academic and Business Writing
-                  (Berkeley), The Art of Teaching (GEMS education), Powerful Tools
-                  for Teaching and learning (University of Houston)
-                </p>
-                <a class="team-link" href="#">Cambrige English Entry Level Certificate</a>
-              </div>
-            </div>
+              <div class="reviews-information">
+              <h3 class="reviews-photo__name">Тоня Кучеровская</h3>
+              <p class="reviews-photo__text">Выпуск 2015 года, Національний університет біоресурсів і
+                природокористування України</p>
+            <p class="reviews-text">За короткий час занять з Оленою я опанувала граматику і поповнила свій зовсім пустий
+              словниковий запас. З першого ж заняття я зрозуміла, що знаходжуся у своїй тарілці<span class="reviews-text__unseen1"> ...</span><span class="reviews-text__unseen2">. Ми з Оленою стали друзями, тому що її справді хвилювала моя успішність. Вона стала для мене авторитетом, проте я не тремтіла на уроках, маючи страх зробити найменшу помилку. Зараз я можу похизуватись тим, що я студен</span><span class="reviews-text__unseen3"> ...</span></p>
+              <a class="reviews-text__link" href="#">Читать дальше</a>
           </div>
-        </section>
-      </main>
-    </div>
-  </body>
+        </div>
+          <ul class="reviews-list">
+            <li class="reviews-list__item">
+              <img class="reviews-list__photo" srcset="
+                    images/members/member7-min.png    54w,
+                    images/members/member7@2x-min.png 108w
+                  " sizes="54px" src="images/members/member7-min.png" alt="member-photo" />
+            </li>
+            <li class="reviews-list__item">
+              <img class="reviews-list__photo" srcset="
+                  images/members/member5-min.png    54w,
+                  images/members/member5@2x-min.png 108w
+                " sizes="54px" src="images/members/member5-min.png" alt="member-photo" />
+            </li>
+            <li class="reviews-list__item">
+              <img class="reviews-list__photo" srcset="
+                images/members/member6-min.png    54w,
+                images/members/member6@2x-min.png 108w
+              " sizes="54px" src="images/members/member6-min.png" alt="member-photo" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
 </html>

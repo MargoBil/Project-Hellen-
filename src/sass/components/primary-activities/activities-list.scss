@@ -1,0 +1,96 @@
+.activities-list {
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__item {
+    @extend %list-decoration;
+    font-size: 11px;
+    font-family: $primary-font;
+    color: $primary-color-dark;
+    line-height: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 20px;
+
+    &--line {
+      &::before {
+        content: '';
+        position: absolute;
+        margin: 20px 0;
+        padding: 0;
+        width: 0;
+        height: 100%;
+        border: none;
+        border-left: 2px dotted #ddd;
+        left: -25.5px;
+      }
+
+      @media screen and(min-width:1280px) {
+        margin-bottom: 25px;
+      }
+
+    }
+
+    @media screen and(min-width:1280px) {
+      font-size: 18px;
+      line-height: 29px;
+    }
+
+    @media screen and(min-width:1680px) {
+      font-size: 21px;
+    }
+  }
+
+  &__text--effect1,
+  &__text--effect2 {
+    color: $primary-color-effects;
+  }
+  &__text--effect2 {
+    color: $primary-color-effects;
+    @media screen and(min-width:1280px) {
+    display: block;
+    }
+  }
+
+
+  &__icon {
+    fill: $primary-color-effects;
+    display: inline-block;
+    position: absolute;
+    left: -35px;
+
+    @media screen and(min-width:1280px) {
+      left: -40px;
+    }
+  }
+
+  &__svg {
+    width: 20px;
+    height: 30px;
+
+    @media screen and(min-width:1280px) {
+      width: 30px;
+    }
+  }
+
+  @media screen and(min-width:768px) {
+    background-color: $bg-color-gray;
+    padding-left: 93px;
+    padding-right: 55px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @media screen and(min-width:1280px) {
+    padding-left: 150px;
+    padding-right: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @media screen and(min-width:1680px) {
+    padding-left: 130px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+  }
+
+}

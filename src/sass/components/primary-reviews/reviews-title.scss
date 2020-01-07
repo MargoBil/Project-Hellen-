@@ -1,0 +1,32 @@
+.reviews-title {
+  font-size: 20px;
+  font-family: $primary-font;
+  color: $bg-color-dark;
+  font-weight: 800;
+  line-height: 26.5px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 14px;
+  margin: 0;
+
+  @media screen and(min-width:768px) {
+    font-size: 26px;
+    line-height: 62.5px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+
+    &__effect {
+      display: none;
+    }
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 26px;
+    padding-top: 74px;
+    padding-bottom: 29px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 46px;
+    padding-top: 116px;
+    padding-bottom: 39px;
+  }
+}

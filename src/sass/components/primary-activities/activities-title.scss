@@ -1,0 +1,23 @@
+.activities-title {
+  font-size: 20px;
+  font-family:$primary-font;
+  color: $primary-color-dark;
+  line-height: 63px;
+  font-weight: 800;
+  margin-bottom: 0;
+  @media screen and(min-width:320px) and(max-width:767px) {
+    text-align: center;
+  }
+  @media screen and(min-width:768px) {
+    font-size: 26px;
+    margin-bottom: 7px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 42px;
+    margin-bottom: 23px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 46px;
+    margin-bottom: 33px;
+  }
+}
