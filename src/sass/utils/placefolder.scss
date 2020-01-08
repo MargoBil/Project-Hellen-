@@ -50,11 +50,13 @@
   font-weight: 600;
   transform: translatex(37px);
 }
+
 %double-list-line {
   width: 25px;
   height: 2px;
   background-color: $primary-color-effects;
 }
+
 %double-title-main {
   font-family: $primary-font;
   font-size: 20px;
@@ -62,9 +64,20 @@
   color: $primary-color-white;
   font-weight: bold;
 }
+
 %style-reviews-text320 {
   font-size: 11px;
   font-family: $primary-font;
   line-height: 20px;
   font-weight: 600;
+}
+
+%style-arrow320 {
+  position: absolute;
+  width: 24px;
+  height: 16px;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  top: 50%;
+  cursor: pointer;
 }

@@ -173,8 +173,6 @@
 
   @media screen and(min-width:1280px) {
     padding-left: 50px;
-  }
-  @media screen and(min-width:1680px) {
     width: 1070px;
     margin: 0 auto;
   }
@@ -186,4 +184,21 @@
   @media screen and(min-width:1280px) {
     padding-right: 130px;
   }
+}
+.form-data {
+  @media screen and(min-width:320px) {
+    background-image: url('/images/images-mobile/bg-class-mb-min.png');
+    background-size: cover;
+  }
+
+  @media only screen and (min-resolution: 2dppx) and (min-width:320px) {
+    background-image: url('/images/images-mobile/bg-class-mb@2x-min.png')
+  }
+
+  @media only screen and(min-resolution: 192dpi) and (min-width:320px) {
+    background-image: url('/images/images-mobile/bg-class-mb@2x-min.png')
+  }
+}
+.form-data-container {
+  text-align: center;
 }

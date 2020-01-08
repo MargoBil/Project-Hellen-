@@ -1,0 +1,11 @@
+.form-data__text {
+  font-size: 11px;
+  font-family: $primary-font;
+  color: $primary-color-white;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 25px;
+  &--effect {
+    color: $primary-color-effects;
+  }
+}

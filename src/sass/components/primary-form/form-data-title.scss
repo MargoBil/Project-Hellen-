@@ -1,0 +1,13 @@
+.form-data__title {
+  font-size: 14px;
+  font-family: $primary-font;
+  color: $primary-color-white;
+  font-weight: 700;
+  line-height: 26px;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  &--effect {
+    color: $primary-color-effects;
+  }
+}
