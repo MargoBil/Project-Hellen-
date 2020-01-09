@@ -187,40 +187,40 @@
 }
 .form-data {
   @media screen and(min-width:320px) {
-    background-image: url('/images/images-mobile/bg-class-mb-min.png');
+    background-image: url('../images/images-mobile/bg-class-mb-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:320px) {
-    background-image: url('/images/images-mobile/bg-class-mb@2x-min.png')
+    background-image: url('../images/images-mobile/bg-class-mb@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:320px) {
-    background-image: url('/images/images-mobile/bg-class-mb@2x-min.png')
+    background-image: url('../images/images-mobile/bg-class-mb@2x-min.png')
   }
   @media screen and(min-width:768px) {
-    background-image: url('/images/images-tablet/bg-class-tb-min.png');
+    background-image: url('../images/images-tablet/bg-class-tb-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:768px) {
-    background-image: url('/images/images-tablet/bg-class-tb@2x-min.png')
+    background-image: url('../images/images-tablet/bg-class-tb@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:768px) {
-    background-image: url('/images/images-tablet/bg-class-tb@2x-min.png')
+    background-image: url('../images/images-tablet/bg-class-tb@2x-min.png')
   }
   @media screen and(min-width:1280px) {
-    background-image: url('/images/images-desktop/bg-class-d-min.png');
+    background-image: url('../images/images-desktop/bg-class-d-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:1280px) {
-    background-image: url('/images/images-desktop/bg-class-d@2x-min.png')
+    background-image: url('../images/images-desktop/bg-class-d@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:1280px) {
-    background-image: url('/images/images-desktop/bg-class-d@2x-min.png')
+    background-image: url('../images/images-desktop/bg-class-d@2x-min.png')
   }
 
 }
