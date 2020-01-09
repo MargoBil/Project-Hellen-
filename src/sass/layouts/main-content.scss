@@ -1,6 +1,6 @@
 .primary-section {
   @media screen and (min-width:320px) {
-    background-image: url('/images/images-tablet/bg-shape-tb-min.png');
+    background-image: url('../images/images-tablet/bg-shape-tb-min.png');
     background-position-x: 20%;
   }
 
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
 
   @media screen and (min-width: 1280px) {
-    background-image: url('/images/images-desktop/bg-shape-d-min.png');
+    background-image: url('../images/images-desktop/bg-shape-d-min.png');
     background-position-y: -230px;
 
   }
@@ -34,44 +34,44 @@
 
   @media screen and(min-width:768px) {
     height: 334px;
-    background-image: url('/images/images-tablet/bg-fire-tb-min.png');
+    background-image: url('../images/images-tablet/bg-fire-tb-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:768px) {
-    background-image: url('/images/images-tablet/bg-fire-tb@2x-min.png')
+    background-image: url('../images/images-tablet/bg-fire-tb@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:768px) {
-    background-image: url('/images/images-tablet/bg-fire-tb@2x-min.png')
+    background-image: url('../images/images-tablet/bg-fire-tb@2x-min.png')
   }
 
   @media screen and (min-width:1280px) and (max-width: 1679px) {
     height: 526px;
-    background-image: url('/images/images-desktop/bg-fire-d-min.png');
+    background-image: url('../images/images-desktop/bg-fire-d-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:1280px) and (max-width: 1679px) {
-    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+    background-image: url('../images/images-desktop/bg-fire-d@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:1280px) and (max-width: 1679px) {
-    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+    background-image: url('../images/images-desktop/bg-fire-d@2x-min.png')
   }
 
   @media screen and (min-width:1680px) {
     height: 561px;
-    background-image: url('/images/images-desktop/bg-fire-d2-min.png');
+    background-image: url('../images/images-desktop/bg-fire-d2-min.png');
     background-size: cover;
   }
 
   @media only screen and (min-resolution: 2dppx) and (min-width:1680px) {
-    background-image: url('/images/images-desktop/bg-fire-d2@2x-min.png')
+    background-image: url('../images/images-desktop/bg-fire-d2@2x-min.png')
   }
 
   @media only screen and(min-resolution: 192dpi) and (min-width:1680px) {
-    background-image: url('/images/images-desktop/bg-fire-d@2x-min.png')
+    background-image: url('../images/images-desktop/bg-fire-d@2x-min.png')
   }
 }
 
