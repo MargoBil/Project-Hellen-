@@ -5,14 +5,22 @@
   background-color: transparent;
   border: 1px solid $primary-color-white;
   outline: unset;
+  @extend %style-form-input320;
 
   &::placeholder  {
-    font-size: 13px;
-    font-family: $primary-font;
-    color: $primary-color-white;
-    font-weight: 600;
-    line-height: 37.5px;
-    padding-left: 20px;
+    @extend %style-form-input320;
+    padding-left: 0;
+    @media screen and(min-width:1680px) {
+      font-size: 21px;
+    }
+  }
+  @media screen and(min-width:768px) {
+    width: 400px;
+  }
+  @media screen and(min-width:1280px) {
+    width: 625px;
+    height: 70px;
+    margin-bottom: 28px;
   }
 }
 .form-data__button {
@@ -27,4 +35,28 @@
   line-height: 1;
   margin-bottom: 56px;
   margin-top: 36px;
+  @media screen and(min-width:768px) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  @media screen and(min-width:768px) {
+      margin-top: 10px;
+      margin-bottom: 0;
+  }
+  @media screen and(min-width:1280px) {
+    margin-top: 30px;
+  }
+  @media screen and(min-width:1680px) {
+    font-size: 14px;
+    width: 352px;
+    height: 68px;
+  }
+}
+.form-data__box {
+  @media screen and(min-width:768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

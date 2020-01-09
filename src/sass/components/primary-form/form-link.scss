@@ -1,0 +1,90 @@
+.form-call__link {
+  padding-left: 8px;
+  @extend %list-decoration;
+  font-size: 18px;
+  font-family: $primary-font;
+  color: $bg-color-dark;
+  font-weight: 700;
+  line-height: 37px;
+
+  @media screen and(min-width:768px) {
+    font-size: 20px;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 27px;
+  }
+}
+
+.form-call {
+  &__svg {
+    height: 36px;
+    width: 100%;
+    fill: $primary-color-effects;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__icon {
+    width: 22px;
+    height: 36px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  @media screen and(min-width:768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px; 
+    position: relative;
+  }
+  @media screen and(min-width:1680px) {
+    height: 145px;
+  }
+}
+
+.form-call-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+
+  @media screen and(min-width:768px) {
+    padding: 0;
+    order: 1;
+    padding-right: 30px;
+  }
+}
+
+.form-call__image-instagram {
+  width: 37px;
+  height: 37px;
+  @media screen and(min-width:768px) {
+    margin-left: 30px;
+  }
+}
+
+.form-call__link-instagram {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 17px;
+
+  @media screen and(min-width:768px) {
+    order: 2;
+    margin: 0;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 29px;
+      background-color: $color-gray-line;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

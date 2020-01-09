@@ -7,6 +7,8 @@
     color: $primary-color-effects;
     @extend %style-reviews-text320;
     cursor: pointer;
+    @extend %list-decoration;
+    text-decoration: underline;
 
     @media screen and(min-width:1280px) {
       font-size: 16.7px;

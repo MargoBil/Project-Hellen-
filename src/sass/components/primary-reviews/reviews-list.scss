@@ -56,6 +56,11 @@
 
     @media screen and(min-width:1280px) {
       left: 12px;
+      transform: translateY(-257px);
+    }
+    @media screen and(min-width:1680px) {
+      left: 90px;
+      transform: translateY(-257px);
     }
   }
 
@@ -96,16 +101,23 @@
 
     @media screen and(min-width:1280px) {
       right: 12px;
+      transform: translateY(-257px);
+    }
+
+    @media screen and(min-width:1680px) {
+      right: 90px;
+      transform: translateY(-257px);
     }
   }
 
   &__photo {
+    border-radius: 50%;
+    border: 2px solid transparent;
 
     &:hover,
     &:focus {
       @media screen and(min-width:768px) {
-        border: 2px solid $primary-color-effects;
-      border-radius: 50%;
+        border-color: $primary-color-effects;
       }
     }
   }

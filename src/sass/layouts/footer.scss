@@ -1,0 +1,20 @@
+.footer-main-text {
+  font-size: 11px;
+  font-family: $primary-font;
+  color: $color-text-footer;
+  line-height: 71px;
+  text-align: center;
+  @media screen and(min-width:768px) {
+    text-align: start;
+  }
+  @media screen and(min-width:1280px) {
+    font-size: 15px;
+  }
+  @media screen and(min-width:1680px) {
+    line-height: 74px;
+  }
+
+}
+.footer-box {
+  background-color: $bg-color-dark;
+}

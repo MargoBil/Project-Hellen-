@@ -1,6 +1,6 @@
-@import 'utils/variables.scss';
-@import 'utils/placefolder.scss';
-@import 'utils/mixins.scss';
+@import 'utils/variables';
+@import 'utils/placefolder';
+@import 'utils/mixins';
 
 @import 'base/normalize';
 @import 'base/base';
@@ -8,6 +8,7 @@
 
 @import 'layouts/header';
 @import 'layouts/main-content';
+@import 'layouts/footer';
 
 @import 'components/box-menu/call-button';
 @import 'components/box-menu/menu-button';
