@@ -3,6 +3,7 @@
   @include flex-justify-center(flex, center);
   margin-bottom: 54px;
   position: relative;
+  margin-top: 15px;
 
   &__item {
     @extend %list-decoration;

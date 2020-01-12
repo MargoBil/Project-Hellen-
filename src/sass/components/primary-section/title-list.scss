@@ -1,7 +1,7 @@
 .title-list {
   padding-left: 0;
   margin-top: $margin-base + 50px;
-  margin-bottom: $margin-base - 7px;
+  margin-bottom: $margin-base + 20px;
 
   &__item {
     @extend %list-decoration;

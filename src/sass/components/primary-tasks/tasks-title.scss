@@ -2,6 +2,7 @@
  @extend %double-title-main;
   width: 240px;
   padding-top: 50px;
+  padding-bottom: 15px;
 
   &__accent {
     color: $primary-color-effects;

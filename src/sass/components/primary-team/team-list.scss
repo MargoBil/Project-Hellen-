@@ -1,11 +1,14 @@
 .team-list {
+  margin-bottom: 20px;
   &__item {
     @extend %list-decoration;
     font-family: $primary-font;
     font-size: 13px;
+    line-height: 20px;
     color: $bg-color-dark;
     font-weight: bold;
     position: relative;
+    padding-top: 18px;
 
     @media screen and(min-width:768px) {
       font-size: 13px;
