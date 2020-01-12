@@ -119,6 +119,7 @@
     &:focus {
       @media screen and(min-width:768px) {
         border-color: $primary-color-effects;
+        transition: 0.3s linear;
       }
     }
   }

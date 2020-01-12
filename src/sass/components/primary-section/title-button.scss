@@ -15,5 +15,6 @@
   &:hover,
   &:focus {
     background-color: $color-hover;
+    transition: 0.3s linear;
   }
 }
