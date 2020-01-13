@@ -10,7 +10,7 @@
     width: 280px;
     height: 267px;
     @extend %list-decoration;
-    padding: 20px 28px 28px 28px;
+    padding: 0px 28px 28px 28px;
     box-shadow: $main-box-shadow;
     margin-top: 15px;
 
@@ -38,6 +38,7 @@
 
     @media screen and(min-width:768px) {
       width: 292px;
+
       &:nth-child(n+5) {
         @media screen and(min-width:768px) and(max-width:1279px) {
           margin-bottom: 51px;
@@ -52,6 +53,7 @@
       padding-left: 50px;
       margin-bottom: 100px;
     }
+
     @media screen and(min-width:1680px) {
       width: 433px;
       height: 397px;
@@ -69,18 +71,29 @@
     font-weight: 700;
     text-align: center;
     padding-bottom: 15px;
-    margin-bottom: 15px;;
+    margin-bottom: 15px;
+    ;
     margin-top: 0;
     padding-left: 10px;
     padding-right: 10px;
 
+    @media screen and(min-width:768px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
     @media screen and(min-width:1280px) {
       font-size: 18px;
       line-height: 29px;
+      padding-left: 3px;
+      padding-right: 3px;
     }
+
     @media screen and(min-width:1680px) {
       font-size: 21px;
       line-height: 29px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 
@@ -102,10 +115,16 @@
       margin: 0 auto;
       transform: translateY(-15px);
     }
+
+    @media screen and(min-width:768px) {
+      padding-bottom: 20px;
+    }
+
     @media screen and(min-width:1280px) {
       font-size: 15px;
       line-height: 31px;
     }
+
     @media screen and(min-width:1680px) {
       font-size: 18.75px;
       line-height: 31px;
@@ -133,32 +152,43 @@
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
-    &--1, &--2 {
+
+    &--1,
+    &--2 {
       width: 40px;
+
       @media screen and (min-width:768px) {
         width: 43px;
       }
     }
+
     &--4 {
       width: 43px;
+
       @media screen and (min-width:768px) {
         width: 45px;
       }
     }
+
     &--3 {
       width: 53px;
+
       @media screen and (min-width:768px) {
         width: 63px;
       }
     }
+
     &--5 {
       width: 39px;
+
       @media screen and (min-width:768px) {
         width: 43px;
       }
     }
+
     &--6 {
       width: 49px;
+
       @media screen and (min-width:768px) {
         width: 55px;
       }
@@ -173,8 +203,11 @@
   @media screen and(min-width:1280px) {
     width: 1210px;
   }
+
   @media screen and(min-width:1680px) {
     width: 1340px;
   }
 }
-
+.solutions-list__text:hover::before {
+  background-color: $primary-color-white;
+}
