@@ -208,6 +208,6 @@
     width: 1340px;
   }
 }
-.solutions-list__text:hover::before {
+.solutions-list__item:hover .solutions-list__text::before {
   background-color: $primary-color-white;
 }
